@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 0A06A3C8
-/// @DnDApplyTo : other
-with(other) instance_destroy();
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 601E0E49
@@ -21,5 +15,10 @@ show_debug_message(string("jump power obtained"));
 /// @DnDVersion : 1
 /// @DnDHash : 7E62D321
 /// @DnDArgument : "steps" "900"
-/// @DnDArgument : "steps_relative" "1"
-alarm_set(0, 900 + alarm_get(0));
+alarm_set(0, 900);
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 0A06A3C8
+/// @DnDApplyTo : other
+with(other) instance_destroy();

@@ -23,10 +23,11 @@ show_debug_message(string(move_x));
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 4D7DD09B
+/// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "collision_tilemap"
-var l4D7DD09B_0 = instance_place(0, y + 2, [collision_tilemap]);if ((l4D7DD09B_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+var l4D7DD09B_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l4D7DD09B_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 284444E0
 	/// @DnDComment : reset y movement
