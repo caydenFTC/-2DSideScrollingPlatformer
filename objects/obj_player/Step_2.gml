@@ -23,9 +23,9 @@ if(move_y > 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDHash : 0DDD51F3
 	/// @DnDParent : 4533D6D3
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_player_idle"
-	/// @DnDSaveInfo : "spriteind" "spr_player_idle"
-	sprite_index = spr_player_idle;
+	/// @DnDArgument : "spriteind" "spr_player_fall"
+	/// @DnDSaveInfo : "spriteind" "spr_player_fall"
+	sprite_index = spr_player_fall;
 	image_index += 0;}
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -34,9 +34,8 @@ if(move_y > 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_floor"
-/// @DnDSaveInfo : "object" "obj_floor"
-var l5329B9DC_0 = instance_place(x + 0, y + 2, [obj_floor]);if ((l5329B9DC_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDArgument : "object" "collision_tilemap"
+var l5329B9DC_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l5329B9DC_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5B2F3C4B
 	/// @DnDParent : 5329B9DC
