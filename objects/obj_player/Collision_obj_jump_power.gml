@@ -1,9 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 601E0E49
-/// @DnDArgument : "expr" "jump_speed * 2"
+/// @DnDArgument : "expr" "jump_speed * 2 "
 /// @DnDArgument : "var" "jump_speed"
-jump_speed = jump_speed * 2;
+jump_speed = jump_speed * 2 ;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0BCEC9A8
+/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "var" "fall_speed"
+fall_speed = 2;
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
