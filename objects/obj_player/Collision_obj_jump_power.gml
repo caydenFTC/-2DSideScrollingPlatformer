@@ -21,8 +21,8 @@ show_debug_message(string("jump power obtained"));
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 7E62D321
-/// @DnDArgument : "steps" "900"
-alarm_set(0, 900);
+/// @DnDArgument : "steps" "400"
+alarm_set(0, 400);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
